@@ -14,6 +14,10 @@
 		DE577DC023A1CCBC00EF55CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE577DBE23A1CCBC00EF55CF /* Main.storyboard */; };
 		DE577DC223A1CCBD00EF55CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE577DC123A1CCBD00EF55CF /* Assets.xcassets */; };
 		DE577DC523A1CCBD00EF55CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE577DC323A1CCBD00EF55CF /* LaunchScreen.storyboard */; };
+		DE6E261C23DC102300D479FC /* AdListContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6E261B23DC102300D479FC /* AdListContract.swift */; };
+		DE6E261E23DC104C00D479FC /* AdListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6E261D23DC104C00D479FC /* AdListPresenter.swift */; };
+		DE6E262023DC105E00D479FC /* AdListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6E261F23DC105E00D479FC /* AdListModel.swift */; };
+		DE6E262223DC107800D479FC /* AdListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6E262123DC107800D479FC /* AdListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +44,10 @@
 		DE577DC123A1CCBD00EF55CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE577DC423A1CCBD00EF55CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DE577DC623A1CCBD00EF55CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE6E261B23DC102300D479FC /* AdListContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdListContract.swift; sourceTree = "<group>"; };
+		DE6E261D23DC104C00D479FC /* AdListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdListPresenter.swift; sourceTree = "<group>"; };
+		DE6E261F23DC105E00D479FC /* AdListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdListModel.swift; sourceTree = "<group>"; };
+		DE6E262123DC107800D479FC /* AdListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +118,7 @@
 		DE577DB723A1CCBC00EF55CF /* idolpin */ = {
 			isa = PBXGroup;
 			children = (
+				DE6E261823DC100800D479FC /* View */,
 				DE577DB823A1CCBC00EF55CF /* AppDelegate.swift */,
 				DE577DBC23A1CCBC00EF55CF /* ViewController.swift */,
 				DE577DBE23A1CCBC00EF55CF /* Main.storyboard */,
@@ -118,6 +127,33 @@
 				DE577DC623A1CCBD00EF55CF /* Info.plist */,
 			);
 			path = idolpin;
+			sourceTree = "<group>";
+		};
+		DE6E261823DC100800D479FC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DE6E261A23DC101300D479FC /* AdList */,
+				DE6E261923DC100E00D479FC /* StationList */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DE6E261923DC100E00D479FC /* StationList */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = StationList;
+			sourceTree = "<group>";
+		};
+		DE6E261A23DC101300D479FC /* AdList */ = {
+			isa = PBXGroup;
+			children = (
+				DE6E261B23DC102300D479FC /* AdListContract.swift */,
+				DE6E261D23DC104C00D479FC /* AdListPresenter.swift */,
+				DE6E261F23DC105E00D479FC /* AdListModel.swift */,
+				DE6E262123DC107800D479FC /* AdListViewController.swift */,
+			);
+			path = AdList;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -255,6 +291,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE6E261C23DC102300D479FC /* AdListContract.swift in Sources */,
+				DE6E262223DC107800D479FC /* AdListViewController.swift in Sources */,
+				DE6E261E23DC104C00D479FC /* AdListPresenter.swift in Sources */,
+				DE6E262023DC105E00D479FC /* AdListModel.swift in Sources */,
 				DE577DBD23A1CCBC00EF55CF /* ViewController.swift in Sources */,
 				DE577DB923A1CCBC00EF55CF /* AppDelegate.swift in Sources */,
 			);
