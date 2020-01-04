@@ -18,6 +18,10 @@
 		DE6E261E23DC104C00D479FC /* AdListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6E261D23DC104C00D479FC /* AdListPresenter.swift */; };
 		DE6E262023DC105E00D479FC /* AdListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6E261F23DC105E00D479FC /* AdListModel.swift */; };
 		DE6E262223DC107800D479FC /* AdListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6E262123DC107800D479FC /* AdListViewController.swift */; };
+		DE6E262423DC10B300D479FC /* StationListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6E262323DC10B300D479FC /* StationListViewController.swift */; };
+		DE6E262623DC10BE00D479FC /* StationListContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6E262523DC10BE00D479FC /* StationListContract.swift */; };
+		DE6E262823DC10C700D479FC /* StationListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6E262723DC10C700D479FC /* StationListPresenter.swift */; };
+		DE6E262A23DC10D100D479FC /* StationListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6E262923DC10D100D479FC /* StationListModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +52,10 @@
 		DE6E261D23DC104C00D479FC /* AdListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdListPresenter.swift; sourceTree = "<group>"; };
 		DE6E261F23DC105E00D479FC /* AdListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdListModel.swift; sourceTree = "<group>"; };
 		DE6E262123DC107800D479FC /* AdListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdListViewController.swift; sourceTree = "<group>"; };
+		DE6E262323DC10B300D479FC /* StationListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationListViewController.swift; sourceTree = "<group>"; };
+		DE6E262523DC10BE00D479FC /* StationListContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationListContract.swift; sourceTree = "<group>"; };
+		DE6E262723DC10C700D479FC /* StationListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationListPresenter.swift; sourceTree = "<group>"; };
+		DE6E262923DC10D100D479FC /* StationListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationListModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +149,10 @@
 		DE6E261923DC100E00D479FC /* StationList */ = {
 			isa = PBXGroup;
 			children = (
+				DE6E262323DC10B300D479FC /* StationListViewController.swift */,
+				DE6E262523DC10BE00D479FC /* StationListContract.swift */,
+				DE6E262723DC10C700D479FC /* StationListPresenter.swift */,
+				DE6E262923DC10D100D479FC /* StationListModel.swift */,
 			);
 			path = StationList;
 			sourceTree = "<group>";
@@ -291,9 +303,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE6E262623DC10BE00D479FC /* StationListContract.swift in Sources */,
 				DE6E261C23DC102300D479FC /* AdListContract.swift in Sources */,
+				DE6E262A23DC10D100D479FC /* StationListModel.swift in Sources */,
+				DE6E262823DC10C700D479FC /* StationListPresenter.swift in Sources */,
 				DE6E262223DC107800D479FC /* AdListViewController.swift in Sources */,
 				DE6E261E23DC104C00D479FC /* AdListPresenter.swift in Sources */,
+				DE6E262423DC10B300D479FC /* StationListViewController.swift in Sources */,
 				DE6E262023DC105E00D479FC /* AdListModel.swift in Sources */,
 				DE577DBD23A1CCBC00EF55CF /* ViewController.swift in Sources */,
 				DE577DB923A1CCBC00EF55CF /* AppDelegate.swift in Sources */,
