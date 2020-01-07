@@ -30,6 +30,8 @@
 		DE6E262623DC10BE00D479FC /* StationListContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6E262523DC10BE00D479FC /* StationListContract.swift */; };
 		DE6E262823DC10C700D479FC /* StationListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6E262723DC10C700D479FC /* StationListPresenter.swift */; };
 		DE6E262A23DC10D100D479FC /* StationListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6E262923DC10D100D479FC /* StationListModel.swift */; };
+		DEAA702A23DC167700176CED /* AdPanelDB.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DEAA702823DC167700176CED /* AdPanelDB.xcdatamodeld */; };
+		DEAA702C23DC168D00176CED /* AdPanelDBWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEAA702B23DC168D00176CED /* AdPanelDBWorker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +74,8 @@
 		DE6E262523DC10BE00D479FC /* StationListContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationListContract.swift; sourceTree = "<group>"; };
 		DE6E262723DC10C700D479FC /* StationListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationListPresenter.swift; sourceTree = "<group>"; };
 		DE6E262923DC10D100D479FC /* StationListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationListModel.swift; sourceTree = "<group>"; };
+		DEAA702923DC167700176CED /* AdPanelDB.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AdPanelDB.xcdatamodel; sourceTree = "<group>"; };
+		DEAA702B23DC168D00176CED /* AdPanelDBWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdPanelDBWorker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +146,7 @@
 		DE577DB723A1CCBC00EF55CF /* idolpin */ = {
 			isa = PBXGroup;
 			children = (
+				DEAA702723DC165E00176CED /* Database */,
 				DE6E261823DC100800D479FC /* View */,
 				DE577DB823A1CCBC00EF55CF /* AppDelegate.swift */,
 				DE577DBC23A1CCBC00EF55CF /* ViewController.swift */,
@@ -206,6 +211,15 @@
 				DE6E262123DC107800D479FC /* AdListViewController.swift */,
 			);
 			path = AdList;
+			sourceTree = "<group>";
+		};
+		DEAA702723DC165E00176CED /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				DEAA702823DC167700176CED /* AdPanelDB.xcdatamodeld */,
+				DEAA702B23DC168D00176CED /* AdPanelDBWorker.swift */,
+			);
+			path = Database;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -358,7 +372,9 @@
 				DE5E190323DC13EC00A88304 /* MainViewController.swift in Sources */,
 				DE6E262423DC10B300D479FC /* StationListViewController.swift in Sources */,
 				DE6E262023DC105E00D479FC /* AdListModel.swift in Sources */,
+				DEAA702A23DC167700176CED /* AdPanelDB.xcdatamodeld in Sources */,
 				DE577DBD23A1CCBC00EF55CF /* ViewController.swift in Sources */,
+				DEAA702C23DC168D00176CED /* AdPanelDBWorker.swift in Sources */,
 				DE577DB923A1CCBC00EF55CF /* AppDelegate.swift in Sources */,
 				DE5E18FC23DC139300A88304 /* AdDetailContract.swift in Sources */,
 			);
@@ -617,6 +633,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DEAA702823DC167700176CED /* AdPanelDB.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DEAA702923DC167700176CED /* AdPanelDB.xcdatamodel */,
+			);
+			currentVersion = DEAA702923DC167700176CED /* AdPanelDB.xcdatamodel */;
+			path = AdPanelDB.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = DE577DAD23A1CCBC00EF55CF /* Project object */;
 }
