@@ -14,6 +14,14 @@
 		DE577DC023A1CCBC00EF55CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE577DBE23A1CCBC00EF55CF /* Main.storyboard */; };
 		DE577DC223A1CCBD00EF55CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE577DC123A1CCBD00EF55CF /* Assets.xcassets */; };
 		DE577DC523A1CCBD00EF55CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE577DC323A1CCBD00EF55CF /* LaunchScreen.storyboard */; };
+		DE5E18FB23DC139300A88304 /* AdDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5E18F723DC139300A88304 /* AdDetailViewController.swift */; };
+		DE5E18FC23DC139300A88304 /* AdDetailContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5E18F823DC139300A88304 /* AdDetailContract.swift */; };
+		DE5E18FD23DC139300A88304 /* AdDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5E18F923DC139300A88304 /* AdDetailPresenter.swift */; };
+		DE5E18FE23DC139300A88304 /* AdDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5E18FA23DC139300A88304 /* AdDetailModel.swift */; };
+		DE5E190323DC13EC00A88304 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5E18FF23DC13EC00A88304 /* MainViewController.swift */; };
+		DE5E190423DC13EC00A88304 /* MainModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5E190023DC13EC00A88304 /* MainModel.swift */; };
+		DE5E190523DC13EC00A88304 /* MainPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5E190123DC13EC00A88304 /* MainPresenter.swift */; };
+		DE5E190623DC13EC00A88304 /* MainContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5E190223DC13EC00A88304 /* MainContract.swift */; };
 		DE6E261C23DC102300D479FC /* AdListContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6E261B23DC102300D479FC /* AdListContract.swift */; };
 		DE6E261E23DC104C00D479FC /* AdListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6E261D23DC104C00D479FC /* AdListPresenter.swift */; };
 		DE6E262023DC105E00D479FC /* AdListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6E261F23DC105E00D479FC /* AdListModel.swift */; };
@@ -48,6 +56,14 @@
 		DE577DC123A1CCBD00EF55CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE577DC423A1CCBD00EF55CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DE577DC623A1CCBD00EF55CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE5E18F723DC139300A88304 /* AdDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdDetailViewController.swift; sourceTree = "<group>"; };
+		DE5E18F823DC139300A88304 /* AdDetailContract.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdDetailContract.swift; sourceTree = "<group>"; };
+		DE5E18F923DC139300A88304 /* AdDetailPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdDetailPresenter.swift; sourceTree = "<group>"; };
+		DE5E18FA23DC139300A88304 /* AdDetailModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdDetailModel.swift; sourceTree = "<group>"; };
+		DE5E18FF23DC13EC00A88304 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		DE5E190023DC13EC00A88304 /* MainModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainModel.swift; sourceTree = "<group>"; };
+		DE5E190123DC13EC00A88304 /* MainPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainPresenter.swift; sourceTree = "<group>"; };
+		DE5E190223DC13EC00A88304 /* MainContract.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainContract.swift; sourceTree = "<group>"; };
 		DE6E261B23DC102300D479FC /* AdListContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdListContract.swift; sourceTree = "<group>"; };
 		DE6E261D23DC104C00D479FC /* AdListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdListPresenter.swift; sourceTree = "<group>"; };
 		DE6E261F23DC105E00D479FC /* AdListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdListModel.swift; sourceTree = "<group>"; };
@@ -137,9 +153,33 @@
 			path = idolpin;
 			sourceTree = "<group>";
 		};
+		DE5E18F523DC135200A88304 /* AdDetail */ = {
+			isa = PBXGroup;
+			children = (
+				DE5E18F823DC139300A88304 /* AdDetailContract.swift */,
+				DE5E18FA23DC139300A88304 /* AdDetailModel.swift */,
+				DE5E18F923DC139300A88304 /* AdDetailPresenter.swift */,
+				DE5E18F723DC139300A88304 /* AdDetailViewController.swift */,
+			);
+			path = AdDetail;
+			sourceTree = "<group>";
+		};
+		DE5E18F623DC135A00A88304 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				DE5E190223DC13EC00A88304 /* MainContract.swift */,
+				DE5E190023DC13EC00A88304 /* MainModel.swift */,
+				DE5E190123DC13EC00A88304 /* MainPresenter.swift */,
+				DE5E18FF23DC13EC00A88304 /* MainViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
 		DE6E261823DC100800D479FC /* View */ = {
 			isa = PBXGroup;
 			children = (
+				DE5E18F623DC135A00A88304 /* Main */,
+				DE5E18F523DC135200A88304 /* AdDetail */,
 				DE6E261A23DC101300D479FC /* AdList */,
 				DE6E261923DC100E00D479FC /* StationList */,
 			);
@@ -303,16 +343,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE5E190423DC13EC00A88304 /* MainModel.swift in Sources */,
+				DE5E18FD23DC139300A88304 /* AdDetailPresenter.swift in Sources */,
+				DE5E190523DC13EC00A88304 /* MainPresenter.swift in Sources */,
+				DE5E18FE23DC139300A88304 /* AdDetailModel.swift in Sources */,
 				DE6E262623DC10BE00D479FC /* StationListContract.swift in Sources */,
 				DE6E261C23DC102300D479FC /* AdListContract.swift in Sources */,
 				DE6E262A23DC10D100D479FC /* StationListModel.swift in Sources */,
 				DE6E262823DC10C700D479FC /* StationListPresenter.swift in Sources */,
 				DE6E262223DC107800D479FC /* AdListViewController.swift in Sources */,
+				DE5E18FB23DC139300A88304 /* AdDetailViewController.swift in Sources */,
+				DE5E190623DC13EC00A88304 /* MainContract.swift in Sources */,
 				DE6E261E23DC104C00D479FC /* AdListPresenter.swift in Sources */,
+				DE5E190323DC13EC00A88304 /* MainViewController.swift in Sources */,
 				DE6E262423DC10B300D479FC /* StationListViewController.swift in Sources */,
 				DE6E262023DC105E00D479FC /* AdListModel.swift in Sources */,
 				DE577DBD23A1CCBC00EF55CF /* ViewController.swift in Sources */,
 				DE577DB923A1CCBC00EF55CF /* AppDelegate.swift in Sources */,
+				DE5E18FC23DC139300A88304 /* AdDetailContract.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
