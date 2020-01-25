@@ -7,41 +7,110 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		44DEF0A43218D8DF22EFEB9B /* Pods_idolpin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0ADA12D257FBC526C0640CBE /* Pods_idolpin.framework */; };
+		DE29347E23AE4A9C0021D4F1 /* idolpinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE29347D23AE4A9C0021D4F1 /* idolpinTests.swift */; };
 		DE577DB923A1CCBC00EF55CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE577DB823A1CCBC00EF55CF /* AppDelegate.swift */; };
-		DE577DBB23A1CCBC00EF55CF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE577DBA23A1CCBC00EF55CF /* SceneDelegate.swift */; };
 		DE577DBD23A1CCBC00EF55CF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE577DBC23A1CCBC00EF55CF /* ViewController.swift */; };
 		DE577DC023A1CCBC00EF55CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE577DBE23A1CCBC00EF55CF /* Main.storyboard */; };
 		DE577DC223A1CCBD00EF55CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE577DC123A1CCBD00EF55CF /* Assets.xcassets */; };
 		DE577DC523A1CCBD00EF55CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE577DC323A1CCBD00EF55CF /* LaunchScreen.storyboard */; };
+		DE6E261C23DC102300D479FC /* AdListContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6E261B23DC102300D479FC /* AdListContract.swift */; };
+		DE6E261E23DC104C00D479FC /* AdListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6E261D23DC104C00D479FC /* AdListPresenter.swift */; };
+		DE6E262023DC105E00D479FC /* AdListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6E261F23DC105E00D479FC /* AdListModel.swift */; };
+		DE6E262223DC107800D479FC /* AdListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6E262123DC107800D479FC /* AdListViewController.swift */; };
+		DE6E262423DC10B300D479FC /* StationListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6E262323DC10B300D479FC /* StationListViewController.swift */; };
+		DE6E262623DC10BE00D479FC /* StationListContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6E262523DC10BE00D479FC /* StationListContract.swift */; };
+		DE6E262823DC10C700D479FC /* StationListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6E262723DC10C700D479FC /* StationListPresenter.swift */; };
+		DE6E262A23DC10D100D479FC /* StationListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6E262923DC10D100D479FC /* StationListModel.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		DE29348023AE4A9C0021D4F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE577DAD23A1CCBC00EF55CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE577DB423A1CCBC00EF55CF;
+			remoteInfo = idolpin;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		0ADA12D257FBC526C0640CBE /* Pods_idolpin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_idolpin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		26BED0C86D6F96D9DD9921C7 /* Pods-idolpin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-idolpin.release.xcconfig"; path = "Target Support Files/Pods-idolpin/Pods-idolpin.release.xcconfig"; sourceTree = "<group>"; };
+		81033CCCD21D1B2BAAD4329C /* Pods-idolpin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-idolpin.debug.xcconfig"; path = "Target Support Files/Pods-idolpin/Pods-idolpin.debug.xcconfig"; sourceTree = "<group>"; };
+		DE29347B23AE4A9C0021D4F1 /* idolpinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = idolpinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE29347D23AE4A9C0021D4F1 /* idolpinTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = idolpinTests.swift; sourceTree = "<group>"; };
+		DE29347F23AE4A9C0021D4F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DE577DB523A1CCBC00EF55CF /* idolpin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = idolpin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE577DB823A1CCBC00EF55CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DE577DBA23A1CCBC00EF55CF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		DE577DBC23A1CCBC00EF55CF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DE577DBF23A1CCBC00EF55CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DE577DC123A1CCBD00EF55CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE577DC423A1CCBD00EF55CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DE577DC623A1CCBD00EF55CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE6E261B23DC102300D479FC /* AdListContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdListContract.swift; sourceTree = "<group>"; };
+		DE6E261D23DC104C00D479FC /* AdListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdListPresenter.swift; sourceTree = "<group>"; };
+		DE6E261F23DC105E00D479FC /* AdListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdListModel.swift; sourceTree = "<group>"; };
+		DE6E262123DC107800D479FC /* AdListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdListViewController.swift; sourceTree = "<group>"; };
+		DE6E262323DC10B300D479FC /* StationListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationListViewController.swift; sourceTree = "<group>"; };
+		DE6E262523DC10BE00D479FC /* StationListContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationListContract.swift; sourceTree = "<group>"; };
+		DE6E262723DC10C700D479FC /* StationListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationListPresenter.swift; sourceTree = "<group>"; };
+		DE6E262923DC10D100D479FC /* StationListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationListModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		DE577DB223A1CCBC00EF55CF /* Frameworks */ = {
+		DE29347823AE4A9C0021D4F1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DE577DB223A1CCBC00EF55CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44DEF0A43218D8DF22EFEB9B /* Pods_idolpin.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		506D5278C591E5BE5B5A348C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				81033CCCD21D1B2BAAD4329C /* Pods-idolpin.debug.xcconfig */,
+				26BED0C86D6F96D9DD9921C7 /* Pods-idolpin.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DCB76A58E1BCFC9B377FA4D0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0ADA12D257FBC526C0640CBE /* Pods_idolpin.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DE29347C23AE4A9C0021D4F1 /* idolpinTests */ = {
+			isa = PBXGroup;
+			children = (
+				DE29347D23AE4A9C0021D4F1 /* idolpinTests.swift */,
+				DE29347F23AE4A9C0021D4F1 /* Info.plist */,
+			);
+			path = idolpinTests;
+			sourceTree = "<group>";
+		};
 		DE577DAC23A1CCBC00EF55CF = {
 			isa = PBXGroup;
 			children = (
 				DE577DB723A1CCBC00EF55CF /* idolpin */,
+				DE29347C23AE4A9C0021D4F1 /* idolpinTests */,
 				DE577DB623A1CCBC00EF55CF /* Products */,
+				506D5278C591E5BE5B5A348C /* Pods */,
+				DCB76A58E1BCFC9B377FA4D0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -49,6 +118,7 @@
 			isa = PBXGroup;
 			children = (
 				DE577DB523A1CCBC00EF55CF /* idolpin.app */,
+				DE29347B23AE4A9C0021D4F1 /* idolpinTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,8 +126,8 @@
 		DE577DB723A1CCBC00EF55CF /* idolpin */ = {
 			isa = PBXGroup;
 			children = (
+				DE6E261823DC100800D479FC /* View */,
 				DE577DB823A1CCBC00EF55CF /* AppDelegate.swift */,
-				DE577DBA23A1CCBC00EF55CF /* SceneDelegate.swift */,
 				DE577DBC23A1CCBC00EF55CF /* ViewController.swift */,
 				DE577DBE23A1CCBC00EF55CF /* Main.storyboard */,
 				DE577DC123A1CCBD00EF55CF /* Assets.xcassets */,
@@ -67,13 +137,63 @@
 			path = idolpin;
 			sourceTree = "<group>";
 		};
+		DE6E261823DC100800D479FC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DE6E261A23DC101300D479FC /* AdList */,
+				DE6E261923DC100E00D479FC /* StationList */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DE6E261923DC100E00D479FC /* StationList */ = {
+			isa = PBXGroup;
+			children = (
+				DE6E262323DC10B300D479FC /* StationListViewController.swift */,
+				DE6E262523DC10BE00D479FC /* StationListContract.swift */,
+				DE6E262723DC10C700D479FC /* StationListPresenter.swift */,
+				DE6E262923DC10D100D479FC /* StationListModel.swift */,
+			);
+			path = StationList;
+			sourceTree = "<group>";
+		};
+		DE6E261A23DC101300D479FC /* AdList */ = {
+			isa = PBXGroup;
+			children = (
+				DE6E261B23DC102300D479FC /* AdListContract.swift */,
+				DE6E261D23DC104C00D479FC /* AdListPresenter.swift */,
+				DE6E261F23DC105E00D479FC /* AdListModel.swift */,
+				DE6E262123DC107800D479FC /* AdListViewController.swift */,
+			);
+			path = AdList;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		DE29347A23AE4A9C0021D4F1 /* idolpinTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE29348423AE4A9C0021D4F1 /* Build configuration list for PBXNativeTarget "idolpinTests" */;
+			buildPhases = (
+				DE29347723AE4A9C0021D4F1 /* Sources */,
+				DE29347823AE4A9C0021D4F1 /* Frameworks */,
+				DE29347923AE4A9C0021D4F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE29348123AE4A9C0021D4F1 /* PBXTargetDependency */,
+			);
+			name = idolpinTests;
+			productName = idolpinTests;
+			productReference = DE29347B23AE4A9C0021D4F1 /* idolpinTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		DE577DB423A1CCBC00EF55CF /* idolpin */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = DE577DC923A1CCBD00EF55CF /* Build configuration list for PBXNativeTarget "idolpin" */;
 			buildPhases = (
+				75436FCE35BE51E778488AC0 /* [CP] Check Pods Manifest.lock */,
 				DE577DB123A1CCBC00EF55CF /* Sources */,
 				DE577DB223A1CCBC00EF55CF /* Frameworks */,
 				DE577DB323A1CCBC00EF55CF /* Resources */,
@@ -97,6 +217,10 @@
 				LastUpgradeCheck = 1120;
 				ORGANIZATIONNAME = TaeinKim;
 				TargetAttributes = {
+					DE29347A23AE4A9C0021D4F1 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = DE577DB423A1CCBC00EF55CF;
+					};
 					DE577DB423A1CCBC00EF55CF = {
 						CreatedOnToolsVersion = 11.2.1;
 					};
@@ -116,11 +240,19 @@
 			projectRoot = "";
 			targets = (
 				DE577DB423A1CCBC00EF55CF /* idolpin */,
+				DE29347A23AE4A9C0021D4F1 /* idolpinTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		DE29347923AE4A9C0021D4F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DE577DB323A1CCBC00EF55CF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -133,18 +265,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		75436FCE35BE51E778488AC0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-idolpin-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		DE29347723AE4A9C0021D4F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE29347E23AE4A9C0021D4F1 /* idolpinTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DE577DB123A1CCBC00EF55CF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE6E262623DC10BE00D479FC /* StationListContract.swift in Sources */,
+				DE6E261C23DC102300D479FC /* AdListContract.swift in Sources */,
+				DE6E262A23DC10D100D479FC /* StationListModel.swift in Sources */,
+				DE6E262823DC10C700D479FC /* StationListPresenter.swift in Sources */,
+				DE6E262223DC107800D479FC /* AdListViewController.swift in Sources */,
+				DE6E261E23DC104C00D479FC /* AdListPresenter.swift in Sources */,
+				DE6E262423DC10B300D479FC /* StationListViewController.swift in Sources */,
+				DE6E262023DC105E00D479FC /* AdListModel.swift in Sources */,
 				DE577DBD23A1CCBC00EF55CF /* ViewController.swift in Sources */,
 				DE577DB923A1CCBC00EF55CF /* AppDelegate.swift in Sources */,
-				DE577DBB23A1CCBC00EF55CF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DE29348123AE4A9C0021D4F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE577DB423A1CCBC00EF55CF /* idolpin */;
+			targetProxy = DE29348023AE4A9C0021D4F1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		DE577DBE23A1CCBC00EF55CF /* Main.storyboard */ = {
@@ -166,6 +346,46 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		DE29348223AE4A9C0021D4F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M79H9K226Y;
+				INFOPLIST_FILE = idolpinTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.elliott.idolpinTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/idolpin.app/idolpin";
+			};
+			name = Debug;
+		};
+		DE29348323AE4A9C0021D4F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M79H9K226Y;
+				INFOPLIST_FILE = idolpinTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.elliott.idolpinTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/idolpin.app/idolpin";
+			};
+			name = Release;
+		};
 		DE577DC723A1CCBD00EF55CF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -282,6 +502,7 @@
 		};
 		DE577DCA23A1CCBD00EF55CF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81033CCCD21D1B2BAAD4329C /* Pods-idolpin.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +521,7 @@
 		};
 		DE577DCB23A1CCBD00EF55CF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26BED0C86D6F96D9DD9921C7 /* Pods-idolpin.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -319,6 +541,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		DE29348423AE4A9C0021D4F1 /* Build configuration list for PBXNativeTarget "idolpinTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE29348223AE4A9C0021D4F1 /* Debug */,
+				DE29348323AE4A9C0021D4F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		DE577DB023A1CCBC00EF55CF /* Build configuration list for PBXProject "idolpin" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
