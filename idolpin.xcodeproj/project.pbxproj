@@ -30,6 +30,21 @@
 		DE6E262623DC10BE00D479FC /* StationListContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6E262523DC10BE00D479FC /* StationListContract.swift */; };
 		DE6E262823DC10C700D479FC /* StationListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6E262723DC10C700D479FC /* StationListPresenter.swift */; };
 		DE6E262A23DC10D100D479FC /* StationListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6E262923DC10D100D479FC /* StationListModel.swift */; };
+		DEAA702A23DC167700176CED /* AdPanelDB.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DEAA702823DC167700176CED /* AdPanelDB.xcdatamodeld */; };
+		DEAA702C23DC168D00176CED /* AdPanelDBWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEAA702B23DC168D00176CED /* AdPanelDBWorker.swift */; };
+		DEAA702E23DC170F00176CED /* MainImage.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEAA702D23DC170F00176CED /* MainImage.xcassets */; };
+		DEAA703023DC171A00176CED /* AdDetailImage.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEAA702F23DC171A00176CED /* AdDetailImage.xcassets */; };
+		DEAA703223DC172500176CED /* AdListImage.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEAA703123DC172500176CED /* AdListImage.xcassets */; };
+		DEAA703423DC172E00176CED /* StationListImage.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEAA703323DC172E00176CED /* StationListImage.xcassets */; };
+		DEAA703723DC174700176CED /* FilterContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEAA703623DC174700176CED /* FilterContract.swift */; };
+		DEAA703923DC176500176CED /* FilterPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEAA703823DC176500176CED /* FilterPresenter.swift */; };
+		DEAA703B23DC177200176CED /* FilterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEAA703A23DC177200176CED /* FilterModel.swift */; };
+		DEAA703D23DC178700176CED /* FilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEAA703C23DC178700176CED /* FilterViewController.swift */; };
+		DEAA703F23DC1AAE00176CED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEAA703E23DC1AAE00176CED /* Main.storyboard */; };
+		DEAA704123DC1AB700176CED /* Filter.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEAA704023DC1AB700176CED /* Filter.storyboard */; };
+		DEAA704323DC1ABE00176CED /* AdDetail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEAA704223DC1ABE00176CED /* AdDetail.storyboard */; };
+		DEAA704523DC1AC600176CED /* AdList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEAA704423DC1AC600176CED /* AdList.storyboard */; };
+		DEAA704723DC1ACD00176CED /* StationList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEAA704623DC1ACD00176CED /* StationList.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +87,21 @@
 		DE6E262523DC10BE00D479FC /* StationListContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationListContract.swift; sourceTree = "<group>"; };
 		DE6E262723DC10C700D479FC /* StationListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationListPresenter.swift; sourceTree = "<group>"; };
 		DE6E262923DC10D100D479FC /* StationListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationListModel.swift; sourceTree = "<group>"; };
+		DEAA702923DC167700176CED /* AdPanelDB.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AdPanelDB.xcdatamodel; sourceTree = "<group>"; };
+		DEAA702B23DC168D00176CED /* AdPanelDBWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdPanelDBWorker.swift; sourceTree = "<group>"; };
+		DEAA702D23DC170F00176CED /* MainImage.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = MainImage.xcassets; sourceTree = "<group>"; };
+		DEAA702F23DC171A00176CED /* AdDetailImage.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = AdDetailImage.xcassets; sourceTree = "<group>"; };
+		DEAA703123DC172500176CED /* AdListImage.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = AdListImage.xcassets; sourceTree = "<group>"; };
+		DEAA703323DC172E00176CED /* StationListImage.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = StationListImage.xcassets; sourceTree = "<group>"; };
+		DEAA703623DC174700176CED /* FilterContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterContract.swift; sourceTree = "<group>"; };
+		DEAA703823DC176500176CED /* FilterPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterPresenter.swift; sourceTree = "<group>"; };
+		DEAA703A23DC177200176CED /* FilterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterModel.swift; sourceTree = "<group>"; };
+		DEAA703C23DC178700176CED /* FilterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterViewController.swift; sourceTree = "<group>"; };
+		DEAA703E23DC1AAE00176CED /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		DEAA704023DC1AB700176CED /* Filter.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Filter.storyboard; sourceTree = "<group>"; };
+		DEAA704223DC1ABE00176CED /* AdDetail.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AdDetail.storyboard; sourceTree = "<group>"; };
+		DEAA704423DC1AC600176CED /* AdList.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AdList.storyboard; sourceTree = "<group>"; };
+		DEAA704623DC1ACD00176CED /* StationList.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = StationList.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +172,7 @@
 		DE577DB723A1CCBC00EF55CF /* idolpin */ = {
 			isa = PBXGroup;
 			children = (
+				DEAA702723DC165E00176CED /* Database */,
 				DE6E261823DC100800D479FC /* View */,
 				DE577DB823A1CCBC00EF55CF /* AppDelegate.swift */,
 				DE577DBC23A1CCBC00EF55CF /* ViewController.swift */,
@@ -160,6 +191,8 @@
 				DE5E18FA23DC139300A88304 /* AdDetailModel.swift */,
 				DE5E18F923DC139300A88304 /* AdDetailPresenter.swift */,
 				DE5E18F723DC139300A88304 /* AdDetailViewController.swift */,
+				DEAA702F23DC171A00176CED /* AdDetailImage.xcassets */,
+				DEAA704223DC1ABE00176CED /* AdDetail.storyboard */,
 			);
 			path = AdDetail;
 			sourceTree = "<group>";
@@ -171,6 +204,8 @@
 				DE5E190023DC13EC00A88304 /* MainModel.swift */,
 				DE5E190123DC13EC00A88304 /* MainPresenter.swift */,
 				DE5E18FF23DC13EC00A88304 /* MainViewController.swift */,
+				DEAA702D23DC170F00176CED /* MainImage.xcassets */,
+				DEAA703E23DC1AAE00176CED /* Main.storyboard */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -178,6 +213,7 @@
 		DE6E261823DC100800D479FC /* View */ = {
 			isa = PBXGroup;
 			children = (
+				DEAA703523DC173900176CED /* Filter */,
 				DE5E18F623DC135A00A88304 /* Main */,
 				DE5E18F523DC135200A88304 /* AdDetail */,
 				DE6E261A23DC101300D479FC /* AdList */,
@@ -193,6 +229,8 @@
 				DE6E262523DC10BE00D479FC /* StationListContract.swift */,
 				DE6E262723DC10C700D479FC /* StationListPresenter.swift */,
 				DE6E262923DC10D100D479FC /* StationListModel.swift */,
+				DEAA703323DC172E00176CED /* StationListImage.xcassets */,
+				DEAA704623DC1ACD00176CED /* StationList.storyboard */,
 			);
 			path = StationList;
 			sourceTree = "<group>";
@@ -204,8 +242,31 @@
 				DE6E261D23DC104C00D479FC /* AdListPresenter.swift */,
 				DE6E261F23DC105E00D479FC /* AdListModel.swift */,
 				DE6E262123DC107800D479FC /* AdListViewController.swift */,
+				DEAA703123DC172500176CED /* AdListImage.xcassets */,
+				DEAA704423DC1AC600176CED /* AdList.storyboard */,
 			);
 			path = AdList;
+			sourceTree = "<group>";
+		};
+		DEAA702723DC165E00176CED /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				DEAA702823DC167700176CED /* AdPanelDB.xcdatamodeld */,
+				DEAA702B23DC168D00176CED /* AdPanelDBWorker.swift */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		DEAA703523DC173900176CED /* Filter */ = {
+			isa = PBXGroup;
+			children = (
+				DEAA703623DC174700176CED /* FilterContract.swift */,
+				DEAA703823DC176500176CED /* FilterPresenter.swift */,
+				DEAA703A23DC177200176CED /* FilterModel.swift */,
+				DEAA703C23DC178700176CED /* FilterViewController.swift */,
+				DEAA704023DC1AB700176CED /* Filter.storyboard */,
+			);
+			path = Filter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -297,9 +358,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEAA703023DC171A00176CED /* AdDetailImage.xcassets in Resources */,
+				DEAA703423DC172E00176CED /* StationListImage.xcassets in Resources */,
+				DEAA704123DC1AB700176CED /* Filter.storyboard in Resources */,
+				DEAA704723DC1ACD00176CED /* StationList.storyboard in Resources */,
 				DE577DC523A1CCBD00EF55CF /* LaunchScreen.storyboard in Resources */,
+				DEAA703F23DC1AAE00176CED /* Main.storyboard in Resources */,
 				DE577DC223A1CCBD00EF55CF /* Assets.xcassets in Resources */,
+				DEAA702E23DC170F00176CED /* MainImage.xcassets in Resources */,
+				DEAA703223DC172500176CED /* AdListImage.xcassets in Resources */,
+				DEAA704323DC1ABE00176CED /* AdDetail.storyboard in Resources */,
 				DE577DC023A1CCBC00EF55CF /* Main.storyboard in Resources */,
+				DEAA704523DC1AC600176CED /* AdList.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,12 +415,14 @@
 			files = (
 				DE5E190423DC13EC00A88304 /* MainModel.swift in Sources */,
 				DE5E18FD23DC139300A88304 /* AdDetailPresenter.swift in Sources */,
+				DEAA703B23DC177200176CED /* FilterModel.swift in Sources */,
 				DE5E190523DC13EC00A88304 /* MainPresenter.swift in Sources */,
 				DE5E18FE23DC139300A88304 /* AdDetailModel.swift in Sources */,
 				DE6E262623DC10BE00D479FC /* StationListContract.swift in Sources */,
 				DE6E261C23DC102300D479FC /* AdListContract.swift in Sources */,
 				DE6E262A23DC10D100D479FC /* StationListModel.swift in Sources */,
 				DE6E262823DC10C700D479FC /* StationListPresenter.swift in Sources */,
+				DEAA703923DC176500176CED /* FilterPresenter.swift in Sources */,
 				DE6E262223DC107800D479FC /* AdListViewController.swift in Sources */,
 				DE5E18FB23DC139300A88304 /* AdDetailViewController.swift in Sources */,
 				DE5E190623DC13EC00A88304 /* MainContract.swift in Sources */,
@@ -358,7 +430,11 @@
 				DE5E190323DC13EC00A88304 /* MainViewController.swift in Sources */,
 				DE6E262423DC10B300D479FC /* StationListViewController.swift in Sources */,
 				DE6E262023DC105E00D479FC /* AdListModel.swift in Sources */,
+				DEAA702A23DC167700176CED /* AdPanelDB.xcdatamodeld in Sources */,
+				DEAA703D23DC178700176CED /* FilterViewController.swift in Sources */,
 				DE577DBD23A1CCBC00EF55CF /* ViewController.swift in Sources */,
+				DEAA702C23DC168D00176CED /* AdPanelDBWorker.swift in Sources */,
+				DEAA703723DC174700176CED /* FilterContract.swift in Sources */,
 				DE577DB923A1CCBC00EF55CF /* AppDelegate.swift in Sources */,
 				DE5E18FC23DC139300A88304 /* AdDetailContract.swift in Sources */,
 			);
@@ -617,6 +693,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DEAA702823DC167700176CED /* AdPanelDB.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DEAA702923DC167700176CED /* AdPanelDB.xcdatamodel */,
+			);
+			currentVersion = DEAA702923DC167700176CED /* AdPanelDB.xcdatamodel */;
+			path = AdPanelDB.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = DE577DAD23A1CCBC00EF55CF /* Project object */;
 }
